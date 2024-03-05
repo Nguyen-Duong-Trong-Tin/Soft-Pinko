@@ -23,9 +23,14 @@
   color: white;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   font-family: var(--font);
   color: var(--color-text);
+  overflow-x: hidden;
 }
 
 a {

@@ -18,6 +18,9 @@
   <!-- Boostrap CSS -->
   <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
 
+  <!-- Wowjs -->
+  <link rel="stylesheet" href="assets/wowjs/animate.css">
+
   <!-- CSS -->
   <link rel="stylesheet" href="assets/css/base.css">
   <link rel="stylesheet" href="assets/css/styles.css">
@@ -151,7 +154,7 @@
     <div class="container">
       <div class="row">
         <div class="col-xl-5 col-lg-5 col-md-12">
-          <div class="inner-img">
+          <div class="inner-img wow bounceInLeft">
             <div class="img"></div>
           </div>
         </div>
@@ -185,7 +188,7 @@
           </div>
         </div>
         <div class="col-xl-6 col-lg-5 col-md-12">
-          <div class="inner-img">
+          <div class="inner-img wow bounceInRight">
             <div class="img"></div>
           </div>
         </div>
@@ -343,7 +346,7 @@
       </div>
       <div class="row">
         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-          <div class="box box-1">
+          <div class="box box-1 wow bounceInUp" data-wow-duration="0.5s">
             <h5>Starter</h5>
             <div class="sale">
               <h6>$ 14.50</h6>
@@ -359,7 +362,7 @@
           </div>
         </div>
         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-          <div class="box box-2">
+          <div class="box box-2 wow bounceInUp" data-wow-duration="1s">
             <h5>Premium</h5>
             <div class="sale">
               <h6>$ 21.50</h6>
@@ -375,7 +378,7 @@
           </div>
         </div>
         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-          <div class="box box-3">
+          <div class="box box-3 wow bounceInUp" data-wow-duration="1.5s">
             <h5>Advanced</h5>
             <div class="sale">
               <h6>$ 42.00</h6>
@@ -583,6 +586,12 @@
   <!-- Bootstrap Javascript -->
   <script src="assets/bootstrap/jquery.slim.min.js"></script>
   <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
+
+  <!-- Wowjs -->
+  <script src="assets/wowjs/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
 </body>
 
 </html>
